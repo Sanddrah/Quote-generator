@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 600px;
+  /* border: 50px solid  red; */
+  background-color: rgba(147, 115, 39, 0.186);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+}
+
+.quote {
+  text-align: center;
+  font-family: "Mogra", cursive;
+  font-size: 30px;
+}
+
+.twitter{
+   border: 1px solid  rgb(102, 179, 255);
+   background-color: rgb(102, 179, 255);
+   border-radius: 4px;
+   width: 60px;
+   height: 35px;
+   text-align: center;
+   
+}
+
+.fa-quote-left, .fa-quote-right{
+    font-size: 40px;
+    color: rgb(157, 142, 142);
+}
+
+.fa-brands{
+    margin-top: 18px;
+}
+
+.source {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+}
+
+hr {
+  /* margin-top: 30px; */
+  border: 1px solid black;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn-quote {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn-quote:hover{
+    background-color: rgb(157, 142, 142);
+    color: white;
+}
